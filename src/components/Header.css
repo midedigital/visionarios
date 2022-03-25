@@ -1,0 +1,46 @@
+.logo {
+    width: 15em;
+    object-fit: contain;
+}
+
+.mide {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 13em;
+    z-index: 99;
+}
+
+.imagen {
+    margin-top: 2.5em;
+    width: 100vw;
+    position: relative;
+    height: auto;
+    display: block;
+}
+
+.gradiente {
+    background: linear-gradient(0deg, rgba(2,2,19,1) 43%, rgba(0,212,255,0) 100%);
+    width: 100vw;
+    height: 65vh;
+    position: absolute;
+    bottom: -33.25em;
+}
+
+.texto {
+    color: #fff;
+    position: absolute;
+    left: 3em;
+    bottom: -25em;
+    font-family: 'Helvetica';
+    width: 30vw;
+    text-align: justify;
+    text-align-last: left;
+}
+
+
+.colores {
+    margin-top: -1.5em;
+    width: 100vw;
+    height: 0.5em;
+}
