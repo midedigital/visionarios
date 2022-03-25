@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* { 
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Fauna';
+  src: local('Fauna'),
+    url('./assets/fonts/FaunaOne-Regular.ttf') format('truetype')
+}
+
+.fauna {
+  font-family: 'Fauna';
+  line-height: 1;
+}
+
+@font-face {
+  font-family: 'Geneva Regular';
+  src: local('Geneva Regular'),
+    url('./assets/fonts/Geneva\ Regular.ttf') format('truetype')
+}
+
+.geneva {
+  font-family: 'Geneva Regular';
+  line-height: 1;
+}
+
+@font-face {
+  font-family: 'Caviar';
+  src: local('Caviar'),
+    url('./assets/fonts/CaviarDreams.ttf') format('truetype')
+}
+
+.caviar {
+  font-family: 'Caviar';
+  line-height: 1;
+}

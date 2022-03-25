@@ -1,0 +1,104 @@
+.sub-header {
+    position: relative;
+    background-color: #fff;
+}
+
+.hero-container {
+    text-align: left;
+    padding-top: 2em;
+    z-index: 2;
+}
+
+.pink-block {
+    background-color: #d8c5b8;
+}
+
+.subheader-name {
+    font-size: 36px;
+    margin-left: 2.5em;
+}
+
+.subheader-sub {
+    font-size: 28px;
+    margin-left: 3.25em;
+}
+
+.subheader-pais {
+    font-size: 22px;
+    padding-left: 4.2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+.hero {
+    margin-left: 5em;
+    margin-bottom: 1em;
+    width: 250px;
+    object-fit: contain;
+    border-radius: 150px;
+}
+
+.imagenes {
+    position: relative;
+    margin-top: 2em;
+    width: 60vw;
+    z-index: 2;
+}
+
+.cuadro {
+    background-color: #f5eee8;
+    position: absolute;
+    height: 350px;
+    width: 100vw;
+    z-index: 0;
+    top: 9.6em;
+}
+
+.conoce-btn {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #f5eee8;
+    border: none;
+    border-radius: 25px;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-left: 5em;
+    margin-top: -5em;
+}
+
+.igualdad {
+    width: 45vw;
+}
+
+.igualdad-container {
+    margin-top: 5em;
+}
+
+.igualdad-texto {
+    margin-top: 5em;
+    width: 40vw;
+    margin-right: 5em;
+}
+
+.igualdad-texto > span {
+    font-family: 'Caviar';
+    text-align-last: left;
+    margin-top: 2em;
+    font-size: 24px;
+    text-align: justify;
+}
+
+.rueda-container {
+    margin-top: 0em;
+    height: 10em;
+}
+
+.rueda {
+    width: 50vw;
+    position: absolute;
+    bottom: -25em;
+    right: 1em;
+}

@@ -1,5 +1,6 @@
 {
   "name": "visionarios",
+  "homepage": "https://mide.org.mx/midedigital/visionarios",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

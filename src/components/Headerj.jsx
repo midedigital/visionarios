@@ -1,4 +1,4 @@
-import logo from '../assets/svg/logo.png'
+import logo from '../assets/svg/logo.svg'
 import mide from '../assets/svg/mide.svg'
 import imagen from '../assets/slider_main/heiska_1.png'
 import colores from '../assets/svg/colores-barra.png'
@@ -16,10 +16,10 @@ const Header = () => {
                 <div className="gradiente" />
             </div>
             <div className="texto">
-                <h2>VISIONARIOS</h2>
-                <h4>EL PROYECTO</h4>
-                <span>
-                    A través de la visión y de la obra de reconocidos artistas contemporáneos, abordamos algunos de los desafíos relacionados con los 17 Objetivos de Desarrollo Sostenible. Conócelos, actúa y transforma nuestro mundo.
+                <h1 className='fauna'>VISIONARIOS</h1>
+                <h3 className='fauna mb-3'>EL PROYECTO</h3>
+                <span className='geneva description'>
+                    A través de la visión y de la obra de reconocidos artistas contemporáneos, abordamos algunos de los desafíos relacionados con los 17 Objetivos de Desarrollo Sostenible. <br />Conócelos, actúa y transforma nuestro mundo.
                 </span>
             </div>
             <img src={colores} alt="colores" className='colores' />

@@ -24,20 +24,25 @@
     width: 100vw;
     height: 65vh;
     position: absolute;
-    bottom: -33.25em;
+    bottom: -33.1em;
 }
 
 .texto {
     color: #fff;
     position: absolute;
-    left: 3em;
-    bottom: -25em;
+    left: 4em;
+    bottom: -20em;
     font-family: 'Helvetica';
-    width: 30vw;
+    font-weight: lighter;
+    font-size: 1.5em;
+    width: 35vw;
     text-align: justify;
     text-align-last: left;
 }
 
+.description {
+    font-size: 24px;
+}
 
 .colores {
     margin-top: -1.5em;
